@@ -10,6 +10,13 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
+    'gatsby-plugin-typescript',
+    {
+      resolve: 'gatsby-plugin-linaria',
+      options: {
+        extractCritical: true, // false by default.
+      },
+    }
   ],
 }
 
