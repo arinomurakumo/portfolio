@@ -20,11 +20,22 @@
     "@linaria/core": "^4.1.2",
     "@linaria/react": "^4.1.3",
     "gatsby": "^4.23.0",
+    "gatsby-plugin-image": "^2.23.0",
     "gatsby-plugin-linaria": "^4.0.0",
+    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-sharp": "^4.23.0",
+    "gatsby-plugin-sitemap": "^6.2.0",
+    "gatsby-plugin-typegen": "^3.1.0",
     "gatsby-plugin-typescript": "^4.23.0",
+    "gatsby-remark-images": "^6.23.0",
+    "gatsby-source-filesystem": "^4.23.0",
+    "gatsby-transformer-remark": "^5.23.0",
+    "gatsby-transformer-sharp": "^4.23.0",
     "modern-normalize": "^1.1.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-intersection-observer": "^9.4.0",
+    "react-modal": "^3.15.1"
   },
   "devDependencies": {
     "@linaria/stylelint": "^4.1.3",
