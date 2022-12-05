@@ -42,6 +42,9 @@ style.tag = css`
 style.aisumicha = css`
   z-index: 1;
   position: relative;
+  top: 0.1rem;
+  display: inline-block;
+  width: 4rem;
   appearance: none;
   background: none;
   border: none;
