@@ -11,6 +11,8 @@ interface HeadProps {
 }
 
 export const Head: React.FC<HeadProps> = (props) => {
+  if (typeof window === 'undefined') return null
+
   const { title, description, image } = props
   const url = typeof window !== 'undefined' ? window.location.href : ''
   const { href, origin } = new URL(url)
