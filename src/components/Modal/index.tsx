@@ -12,6 +12,8 @@ type ModalProps = {
 }
 
 export const Modal: React.FC<ModalProps> = (props: ModalProps) => {
+  if (typeof window === 'undefined') return null
+
   const { isOpen, contentLabel, children, handleCloseModal } = props
 
   useEffect(() => {
