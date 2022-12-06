@@ -9,6 +9,7 @@ style.wrapper = css`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-block-start: 7rem;
   > * + * {
     margin-block-start: 3rem;
     ${md} {

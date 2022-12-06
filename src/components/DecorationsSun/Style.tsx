@@ -5,8 +5,6 @@ import type { Style } from '@style/index'
 
 export const style: Style = {}
 
-const negative = -7
-
 style.wrapper = css`
   position: relative;
   margin: auto;
@@ -40,7 +38,7 @@ style.imagesWrapper = css`
   overflow: hidden;
   transform: translateY(-6.75vh);
   ${md} {
-    transform: translateY(${negative}rem);
+    transform: translateY(-7rem);
   }
 `
 
@@ -104,12 +102,11 @@ style.baseColor = css`
 `
 
 style.kinariiro = css`
+  display: inline-block;
+  width: 1.5rem;
   appearance: none;
   background: none;
   border: none;
-  ${md} {
-    width: 1.5rem;
-  }
   &:hover {
     opacity: 0.7;
     cursor: pointer;
