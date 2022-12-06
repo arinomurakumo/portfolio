@@ -13,8 +13,6 @@ import { Head as Heads } from '@components/Head'
 const IndexPage: React.FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({
   data,
 }) => {
-  if (typeof window === 'undefined') return null
-
   const posts = data.allMarkdownRemark
 
   return (

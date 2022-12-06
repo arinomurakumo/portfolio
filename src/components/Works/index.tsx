@@ -13,6 +13,8 @@ type WorksProps = {
 }
 
 export const Works: React.FC<WorksProps> = (props) => {
+  if (typeof window === 'undefined') return null
+
   const { posts } = props
   if (posts.totalCount < 0) {
     return null
