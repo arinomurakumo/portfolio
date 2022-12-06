@@ -111,6 +111,10 @@ style.profileTitles = css`
   }
 `
 
+style.profileSns = css`
+  width: 2rem;
+`
+
 style.profileContents = css`
   > * + * {
     margin-block-start: 1rem;
