@@ -2,7 +2,7 @@ import React, { FC, ReactNode } from 'react'
 
 import { style } from './Style'
 
-type Props = {
+interface Props {
   children: ReactNode
 }
 

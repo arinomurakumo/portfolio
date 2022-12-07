@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import { style } from './Style'
 
 import { Container } from '@components/Container'
-import { H2 } from '@components/Title'
 import { DecorationsSun } from '@components/DecorationsSun'
 import { Logo, LogoDesktop } from './Logo'
 

@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer'
 import { colors } from '@style/index'
 import type { Style } from '@style/index'
 
-type Props = {
+interface Props {
   name: string
   style: Style
 }

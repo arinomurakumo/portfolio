@@ -7,7 +7,7 @@ import { DecorationCloud } from '@components/DecorationCloud'
 
 import imageRisingSun from '@images/keyVisual/risingSun.png'
 
-type DecorationsSunProps = {
+interface DecorationsSunProps {
   isAnimated: boolean
 }
 

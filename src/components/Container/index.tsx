@@ -2,7 +2,7 @@ import React from 'react'
 
 import { style } from './Style'
 
-type ContainerProps = {
+interface ContainerProps {
   children: React.ReactNode
   layoutName?: string
   isSibling?: boolean

@@ -2,7 +2,7 @@ import React from 'react'
 
 import { style } from './Style'
 
-type TagsProps = {
+interface TagsProps {
   items: readonly (string | null)[] | null
 }
 

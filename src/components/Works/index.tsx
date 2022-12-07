@@ -10,7 +10,7 @@ import { Image } from '@components/Image'
 
 import imagePortfolio from '@images/works/portfolio.png'
 
-type WorksProps = {
+interface WorksProps {
   posts: GatsbyTypes.BlogIndexQuery['allMarkdownRemark']
 }
 
