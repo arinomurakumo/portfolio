@@ -6,7 +6,7 @@ import { type ColorNamesType } from '@components/ColorName/colorData'
 import { colors } from '@style/index'
 import { Details } from './Details'
 
-type Props = {
+interface Props {
   name: ColorNamesType
   style?: string
 }

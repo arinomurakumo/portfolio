@@ -4,7 +4,7 @@ import ReactModal from 'react-modal'
 import { style } from './Style'
 import { colors } from '@style/index'
 
-type ModalProps = {
+interface ModalProps {
   isOpen: boolean
   handleCloseModal: () => void
   contentLabel: string
