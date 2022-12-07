@@ -17,7 +17,6 @@ const config: GatsbyConfig = {
       resolve: 'gatsby-plugin-linaria',
       options: {
         extractCritical: true, // false by default.
-        displayName: true
       },
     },
     // markdown
