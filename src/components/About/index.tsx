@@ -28,7 +28,7 @@ export const About: React.FC = () => {
           onClick={handleOpenModal}
           aria-label="アリノムラクモアスハヤリについて"
         >
-          <div className={style.buttonWrapper}>
+          <span className={style.buttonWrapper}>
             <img
               src={sign}
               alt=""
@@ -36,13 +36,13 @@ export const About: React.FC = () => {
               height={96}
               className={style.buttonImage}
             />
-            <p className={style.name}>
+            <span className={style.name}>
               <ruby>
                 在之邨雲阿須速理<rt>アリノムラクモアスハヤリ</rt>
               </ruby>
               について
-            </p>
-          </div>
+            </span>
+          </span>
         </button>
         <Modal
           isOpen={isOpen}
