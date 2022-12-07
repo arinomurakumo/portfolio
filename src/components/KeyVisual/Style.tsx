@@ -89,6 +89,7 @@ style['logoAnimation--mura'] = cx(
 style['logoAnimation--kumo'] = cx(
   style.logoAnimation,
   css`
+    stroke: var(--color-rurikon-800);
     animation: stroke-kumo 1.5s ease-in-out 450ms forwards;
     @keyframes stroke-kumo {
       0% {
@@ -105,7 +106,7 @@ style['logoAnimation--kumo'] = cx(
       100% {
         fill: var(--color-rurikon-800);
         stroke-dashoffset: 0;
-        stroke-width: 1;
+        stroke-width: 0.5;
       }
     }
   `

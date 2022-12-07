@@ -8,6 +8,8 @@ import { Tags } from '@components/Tags'
 import { H2 } from '@components/Title'
 import { Image } from '@components/Image'
 
+import imagePortfolio from '@images/works/portfolio.png'
+
 type WorksProps = {
   posts: GatsbyTypes.BlogIndexQuery['allMarkdownRemark']
 }
@@ -61,6 +63,21 @@ export const Works: React.FC<WorksProps> = (props) => {
               </li>
             )
           })}
+          <li className={style.item}>
+            <a
+              href="https://github.com/arinomurakumo/portfolio"
+              target="_blank"
+              rel="noopener"
+            >
+              <div className={style.link}>
+                <div className={style.itemImage}>
+                  <img src={imagePortfolio} alt="このサイトについて" />
+                  <p className={style.itemTitle}>Portfolio</p>
+                </div>
+                <Tags items={['repository']} />
+              </div>
+            </a>
+          </li>
         </ul>
       </div>
     </Container>
