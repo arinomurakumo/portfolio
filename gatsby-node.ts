@@ -10,7 +10,8 @@ export const onCreateWebpackConfig = ({ actions, getConfig, stage, loaders }: Cr
         '@components': path.resolve(__dirname, 'src/components'),
         '@images': path.resolve(__dirname, 'src/images'),
         '@pages': path.resolve(__dirname, 'src/pages'),
-        '@style': path.resolve(__dirname, 'src/style')
+        '@style': path.resolve(__dirname, 'src/style'),
+        '@static': path.resolve(__dirname, 'static')
       }
     }
   })
