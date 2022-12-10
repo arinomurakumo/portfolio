@@ -71,7 +71,12 @@ export const Works: React.FC<WorksProps> = (props) => {
             >
               <div className={style.link}>
                 <div className={style.itemImage}>
-                  <img src={imagePortfolio} alt="このサイトについて" />
+                  <img
+                    src={imagePortfolio}
+                    alt="このサイトについて"
+                    width={192}
+                    height={192}
+                  />
                   <p className={style.itemTitle}>Portfolio</p>
                 </div>
                 <Tags items={['repository']} />
