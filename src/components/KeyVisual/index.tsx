@@ -21,7 +21,7 @@ export const KeyVisual: React.FC = () => {
             className={style.titleWrapper}
             data-state={isAnimated ? 'animation' : undefined}
           >
-            <p className={style.portfolio}>Portfolio</p>
+            <p className={style.portfolio}>Arinomurakumo Portfolio</p>
           </div>
         </div>
       </Container>
