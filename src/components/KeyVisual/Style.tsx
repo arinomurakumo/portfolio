@@ -70,7 +70,7 @@ style.logoAnimation = css`
     100% {
       fill: var(--color-aisumicha-800);
       stroke-dashoffset: 0;
-      stroke-width: 1;
+      stroke-width: 0.5;
     }
   }
 `
