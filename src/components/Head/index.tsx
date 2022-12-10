@@ -1,7 +1,7 @@
 import React from 'react'
 
 import imageOgimage from '@images/common/ogimage.jpg'
-import favicon from '@images/common/favicon.ico'
+import favicon from '@static/favicon.ico'
 
 interface HeadProps {
   title: string
