@@ -27,15 +27,18 @@ style.title = css`
 `
 
 style.portfolio = css`
-  font-size: var(--font-size-3xl);
+  font-size: var(--font-size-2xl);
   font-weight: bold;
+  ${md} {
+    font-size: var(--font-size-3xl);
+  }
 `
 
 style.image = css`
   width: 14vh;
-  padding-block-start: 3rem;
   ${md} {
     display: none;
+    padding-block-start: 3rem;
   }
 `
 
