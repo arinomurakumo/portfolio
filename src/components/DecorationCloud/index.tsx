@@ -10,8 +10,6 @@ interface Props {
 }
 
 export const DecorationCloud: FC<Props> = (props) => {
-  if (typeof window === 'undefined') return null
-
   const { name, style } = props
   const { ref, inView } = useInView({
     /* Optional options */

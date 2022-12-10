@@ -9,8 +9,6 @@ import { DecorationCloud } from '@components/DecorationCloud'
 import imageMoonClowd from '@images/about/moonClowd.png'
 
 export const DecorationsMoon: React.FC = () => {
-  if (typeof window === 'undefined') return null
-
   const { ref, inView } = useInView({
     /* Optional options */
     threshold: 0,
