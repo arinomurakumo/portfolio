@@ -2,7 +2,7 @@ import * as React from 'react'
 import { graphql, HeadFC, PageProps } from 'gatsby'
 
 export { globals } from '@style/globals'
-
+import { SuspenseHelper } from '@components/SuspenseHelper'
 import { KeyVisual } from '@components/KeyVisual'
 import { Works } from '@components/Works'
 import { DecorationsMoon } from '@components/DecorationsMoon'
@@ -16,15 +16,13 @@ const IndexPage: React.FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({
   const posts = data.allMarkdownRemark
 
   return (
-    <div>
-      <main>
-        <KeyVisual />
-        <Works posts={posts} />
-        <DecorationsMoon />
-        <About />
-      </main>
+    <SuspenseHelper>
+      <KeyVisual />
+      <Works posts={posts} />
+      <DecorationsMoon />
+      <About />
       <Footer />
-    </div>
+    </SuspenseHelper>
   )
 }
 
