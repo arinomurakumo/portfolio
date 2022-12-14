@@ -92,4 +92,5 @@ style.footer = css`
 style.footerLink = css`
   appearance: none;
   border: none;
+  background-color: transparent;
 `
