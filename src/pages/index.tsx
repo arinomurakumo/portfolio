@@ -16,13 +16,12 @@ const IndexPage: React.FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({
   const posts = data.allMarkdownRemark
 
   return (
-    <SuspenseHelper>
+    <>
       <KeyVisual />
       <Works posts={posts} />
-      <DecorationsMoon />
       <About />
       <Footer />
-    </SuspenseHelper>
+    </>
   )
 }
 
