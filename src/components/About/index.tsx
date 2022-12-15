@@ -5,6 +5,7 @@ import { style } from './Style'
 import { Profile } from './Profile'
 import { Container } from '@components/Container'
 import { Modal } from '@components/Modal'
+import { SuspenseHelper } from '@components/SuspenseHelper'
 
 import sign from '@images/about/sign.png'
 
@@ -44,13 +45,15 @@ export const About: React.FC = () => {
             </span>
           </span>
         </button>
-        <Modal
-          isOpen={isOpen}
-          handleCloseModal={handleCloseModal}
-          contentLabel="Works Contents"
-        >
-          <Profile />
-        </Modal>
+        <SuspenseHelper>
+          <Modal
+            isOpen={isOpen}
+            handleCloseModal={handleCloseModal}
+            contentLabel="Works Contents"
+          >
+            <Profile />
+          </Modal>
+        </SuspenseHelper>
       </div>
     </Container>
   )

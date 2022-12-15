@@ -4,6 +4,7 @@ import { style } from './Style'
 
 import { Container } from '@components/Container'
 import { DecorationsSun } from '@components/DecorationsSun'
+import { SuspenseHelper } from '@components/SuspenseHelper'
 import { Logo, LogoDesktop } from './Logo'
 
 export const KeyVisual: React.FC = () => {
@@ -25,7 +26,9 @@ export const KeyVisual: React.FC = () => {
           </div>
         </div>
       </Container>
-      <DecorationsSun isAnimated={isAnimated} />
+      <SuspenseHelper>
+        <DecorationsSun isAnimated={isAnimated} />
+      </SuspenseHelper>
     </>
   )
 }

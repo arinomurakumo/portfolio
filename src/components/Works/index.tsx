@@ -7,6 +7,8 @@ import { Container } from '@components/Container'
 import { Tags } from '@components/Tags'
 import { H2 } from '@components/Title'
 import { Image } from '@components/Image'
+import { SuspenseHelper } from '@components/SuspenseHelper'
+import { DecorationsMoon } from '@components/DecorationsMoon'
 
 import imagePortfolio from '@images/works/portfolio.png'
 
@@ -15,8 +17,6 @@ interface WorksProps {
 }
 
 export const Works: React.FC<WorksProps> = (props) => {
-  if (typeof window === 'undefined') return null
-
   const { posts } = props
   if (posts.totalCount < 0) {
     return null
@@ -33,58 +33,63 @@ export const Works: React.FC<WorksProps> = (props) => {
     })
 
   return (
-    <Container layoutName="Work" isSibling>
-      <div className={style.wrapper} id="Works">
-        <H2>Works</H2>
-        <ul className={style.items}>
-          {sortPosts.map((item, index) => {
-            if (
-              !item.node.frontmatter ||
-              item.node.frontmatter.title === '在之邨雲阿須速理'
-            )
-              return null
+    <>
+      <Container layoutName="Work" isSibling>
+        <div className={style.wrapper} id="Works">
+          <H2>Works</H2>
+          <ul className={style.items}>
+            {sortPosts.map((item, index) => {
+              if (
+                !item.node.frontmatter ||
+                item.node.frontmatter.title === '在之邨雲阿須速理'
+              )
+                return null
 
-            const { title, tags, slug, thumbnail } = item.node.frontmatter
+              const { title, tags, slug, thumbnail } = item.node.frontmatter
 
-            return (
-              <li className={style.item} key={index}>
-                <Link to={slug!}>
-                  <div className={style.link}>
-                    <div className={style.itemImage}>
-                      <Image
-                        filename={thumbnail ? thumbnail : ''}
-                        alt={`${title}の制作イメージ`}
-                      />
-                      <p className={style.itemTitle}>{title}</p>
+              return (
+                <li className={style.item} key={index}>
+                  <Link to={slug!}>
+                    <div className={style.link}>
+                      <div className={style.itemImage}>
+                        <Image
+                          filename={thumbnail ? thumbnail : ''}
+                          alt={`${title}の制作イメージ`}
+                        />
+                        <p className={style.itemTitle}>{title}</p>
+                      </div>
+                      <Tags items={tags} />
                     </div>
-                    <Tags items={tags} />
+                  </Link>
+                </li>
+              )
+            })}
+            <li className={style.item}>
+              <a
+                href="https://github.com/arinomurakumo/portfolio"
+                target="_blank"
+                rel="noopener"
+              >
+                <div className={style.link}>
+                  <div className={style.itemImage}>
+                    <img
+                      src={imagePortfolio}
+                      alt="このサイトについて"
+                      width={192}
+                      height={192}
+                    />
+                    <p className={style.itemTitle}>Portfolio</p>
                   </div>
-                </Link>
-              </li>
-            )
-          })}
-          <li className={style.item}>
-            <a
-              href="https://github.com/arinomurakumo/portfolio"
-              target="_blank"
-              rel="noopener"
-            >
-              <div className={style.link}>
-                <div className={style.itemImage}>
-                  <img
-                    src={imagePortfolio}
-                    alt="このサイトについて"
-                    width={192}
-                    height={192}
-                  />
-                  <p className={style.itemTitle}>Portfolio</p>
+                  <Tags items={['repository']} />
                 </div>
-                <Tags items={['repository']} />
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </Container>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </Container>
+      <SuspenseHelper>
+        <DecorationsMoon />
+      </SuspenseHelper>
+    </>
   )
 }
