@@ -27,7 +27,7 @@ style.title = css`
 `
 
 style.portfolio = css`
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-xl);
   font-weight: bold;
   ${md} {
     font-size: var(--font-size-3xl);
