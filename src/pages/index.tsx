@@ -27,32 +27,30 @@ const IndexPage: React.FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({
 
 export default IndexPage
 
-export const query = graphql`
-  query BlogIndex {
-    site {
-      siteMetadata {
-        title
-      }
+export const query = graphql`query BlogIndex {
+  site {
+    siteMetadata {
+      title
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            date
-            tags
-            slug
-            thumbnail
-            number
-          }
-          excerpt
+  }
+  allMarkdownRemark(sort: {frontmatter: {date: ASC}}) {
+    totalCount
+    edges {
+      node {
+        id
+        frontmatter {
+          title
+          date
+          tags
+          slug
+          thumbnail
+          number
         }
+        excerpt
       }
     }
   }
-`
+}`
 
 export const Head: HeadFC = () => (
   <Heads
