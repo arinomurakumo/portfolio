@@ -30,7 +30,7 @@ style.item = css`
   width: 50%;
   padding: 1rem;
   ${md} {
-    width: 25%;
+    width: 33.3333%;
     padding: 2rem;
   }
 `
