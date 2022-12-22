@@ -8,8 +8,7 @@ export const style: Style = {}
 style.wrapper = css`
   display: flex;
   flex-direction: column;
-  margin-block-start: 5rem;
-  padding: 1rem;
+  padding: 5rem 1rem 1rem;
   > * + * {
     margin-block-start: 3rem;
     padding-block-start: 3rem;
