@@ -8,7 +8,6 @@ export const style: Style = {}
 style.details = css`
   ${md} {
     block-size: 100%;
-    writing-mode: vertical-rl;
     display: flex;
     justify-content: center;
     flex-flow: column;

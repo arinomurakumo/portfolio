@@ -55,8 +55,6 @@ style.profile = css`
     display: flex;
     margin: auto;
     justify-content: center;
-    writing-mode: vertical-rl;
-    overflow: auto;
   }
 `
 

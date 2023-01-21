@@ -30,11 +30,6 @@ style.overlay = css`
 `
 
 style.modal = css`
-  inline-size: 100%;
-  block-size: 100%;
-`
-
-style.wrapper = css`
   position: relative;
   display: flex;
   align-items: center;
@@ -47,14 +42,17 @@ style.container = css`
   inline-size: 100%;
   block-size: 100vh;
   padding: 4rem 1rem 1rem;
-  overflow: auto;
   color: var(--color-white);
+  overflow: auto;
   ${md} {
-    max-block-size: 70vh;
+    inline-size: auto;
+    max-inline-size: 100vw;
+    block-size: auto;
+    max-block-size: 100vw;
+    padding-block-start: 1rem;
+    writing-mode: vertical-rl;
   }
 `
-
-style.contents = css``
 
 style.closeButton = css`
   position: absolute;

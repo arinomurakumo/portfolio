@@ -2,8 +2,6 @@ import React from 'react'
 
 import { style } from './Style'
 
-import { Container } from '@components/Container'
-
 import sign from '@images/about/sign.png'
 
 export const Profile: React.FC = () => {
