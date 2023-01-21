@@ -30,6 +30,11 @@ style.overlay = css`
 `
 
 style.modal = css`
+  inline-size: 100%;
+  block-size: 100%;
+`
+
+style.wrapper = css`
   position: relative;
   display: flex;
   align-items: center;
