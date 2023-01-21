@@ -19,8 +19,8 @@ export const base = css`
 
     img,
     svg {
-      width: 100%;
-      max-width: 100%;
+      inline-size: 100%;
+      max-inline-size: 100%;
       height: auto;
     }
 

@@ -44,7 +44,7 @@ style.aisumicha = css`
   position: relative;
   top: 0.1rem;
   display: inline-block;
-  width: 4rem;
+  inline-size: 4rem;
   appearance: none;
   background: none;
   border: none;
@@ -80,7 +80,7 @@ style.decorations = css`
 `
 
 style.moon = css`
-  max-width: 710px;
+  max-inline-size: 710px;
   ${sm} {
     margin-top: ${negative}rem;
   }
@@ -90,8 +90,8 @@ const colorName = css`
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;
-  max-width: 710px;
+  inline-size: 100%;
+  max-inline-size: 710px;
   appearance: none;
   background: none;
   border: none;
@@ -104,10 +104,10 @@ const colorName = css`
 style.rurikonHorizontal = cx(
   colorName,
   css`
-    top: calc(100% - 43vw);
+    top: calc(100% - 43.3vw);
     @media (min-width: 710px) {
       top: 8.4rem;
-      max-width: 710px;
+      max-inline-size: 710px;
     }
   `
 )
@@ -115,7 +115,7 @@ style.rurikonHorizontal = cx(
 style.yamabukiiro = cx(
   colorName,
   css`
-    top: calc(100% - 19vw);
+    top: calc(100% - 19.8vw);
     @media (min-width: 710px) {
       top: 19rem;
     }
@@ -132,7 +132,7 @@ style.kinariiro = css`
   background: none;
   border: none;
   ${md} {
-    width: 1.5rem;
+    inline-size: 1.5rem;
   }
   &:hover {
     opacity: 0.7;
@@ -145,8 +145,8 @@ style.cloud = css`
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;
-  max-width: 710px;
+  inline-size: 100%;
+  max-inline-size: 710px;
 `
 
 style.cloudTop = cx(

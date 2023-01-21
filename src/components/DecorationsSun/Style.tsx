@@ -43,12 +43,12 @@ style.imagesWrapper = css`
 `
 
 style.risingSun = css`
-  width: 200%;
-  max-width: none;
+  inline-size: 200%;
+  max-inline-size: none;
   transform: translateX(-25%);
   ${md} {
-    width: 100%;
-    max-width: 1127px;
+    inline-size: 100%;
+    max-inline-size: 1127px;
     transform: none;
   }
 `
@@ -57,8 +57,8 @@ const colorName = css`
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 200%;
-  max-width: 1127px;
+  inline-size: 200%;
+  max-inline-size: 1127px;
   appearance: none;
   background: none;
   border: none;
@@ -67,7 +67,7 @@ const colorName = css`
     cursor: pointer;
   }
   ${md} {
-    width: 100%;
+    inline-size: 100%;
   }
 `
 
@@ -103,7 +103,7 @@ style.baseColor = css`
 
 style.kinariiro = css`
   display: inline-block;
-  width: 1.5rem;
+  inline-size: 1.5rem;
   appearance: none;
   background: none;
   border: none;
@@ -118,10 +118,10 @@ style.cloud = css`
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 200%;
-  max-width: 1127px;
+  inline-size: 200%;
+  max-inline-size: 1127px;
   ${md} {
-    width: 100%;
+    inline-size: 100%;
   }
 `
 

@@ -2,14 +2,12 @@ import React from 'react'
 
 import { style } from './Style'
 
-import { Container } from '@components/Container'
-
 import sign from '@images/about/sign.png'
 
 export const Profile: React.FC = () => {
   return (
-    <Container layoutName="Profile">
-      <section className={style.profile}>
+    <div className={style.profile} data-layout="Profile">
+      <section className={style.profileContainer}>
         <div className={style.profileTitles}>
           <h2>
             <ruby>
@@ -190,6 +188,6 @@ export const Profile: React.FC = () => {
           />
         </section>
       </section>
-    </Container>
+    </div>
   )
 }

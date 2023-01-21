@@ -8,7 +8,7 @@ export const style: Style = {}
 style.container = css`
   margin: auto;
   ${md} {
-    max-width: 1024px;
+    max-inline-size: 1024px;
   }
 `
 

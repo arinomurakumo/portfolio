@@ -26,9 +26,7 @@ export const Modal: React.FC<ModalProps> = (props: ModalProps) => {
       overlayClassName={style.overlay}
     >
       <div className={style.wrapper} onClick={handleCloseModal}>
-        <div className={style.container}>
-          <div className={style.contents}>{children}</div>
-        </div>
+        <div className={style.container}>{children}</div>
         <button
           onClick={handleCloseModal}
           aria-label="ポップアップを閉じる"

@@ -68,11 +68,11 @@ style.contents = css`
 
   iframe {
     aspect-ratio: 16 / 9;
-    width: 100%;
-    max-width: 100%;
+    inline-size: 100%;
+    max-inline-size: 100%;
     height: 100%;
     ${md} {
-      width: 560px;
+      inline-size: 560px;
     }
   }
 
