@@ -18,45 +18,12 @@ style.wrapper = css`
   }
 `
 
-style.cloud = css`
-  max-width: 351px;
-  width: 10rem;
-  ${md} {
-    width: 100%;
-  }
-`
-
-style.cloudPath = css`
-  stroke: var(--color-slate-300);
-  stroke-dasharray: 300;
-  stroke-dashoffset: 0;
-  stroke-width: 0.3;
-  &[data-state='animation'] {
-    animation: stroke 1.5s ease-in-out forwards;
-  }
-  @keyframes stroke {
-    0% {
-      fill: var(--color-kinariiro-400);
-      stroke-dashoffset: 300;
-    }
-    10% {
-      fill: transparent;
-    }
-    80% {
-      fill: transparent;
-    }
-    100% {
-      fill: var(--color-slate-300);
-      stroke-dashoffset: 0;
-    }
-  }
-`
-
 style.button = css`
   appearance: none;
   background: none;
   border: none;
 `
+
 style.buttonWrapper = css`
   display: flex;
   align-items: center;
@@ -86,8 +53,9 @@ style.name = css`
 style.profile = css`
   padding: 1rem;
   ${md} {
-    width: 100%;
+    block-size: 100%;
     writing-mode: vertical-rl;
+    overflow: auto;
   }
   > * + * {
     margin-block-start: 1rem;
@@ -99,9 +67,10 @@ style.profile = css`
 
 style.profileTitles = css`
   display: grid;
-  grid-template-columns: 200px 1fr;
+  ${md} {
+    grid-template-columns: 200px 1fr;
+  }
   > * + * {
-    margin-inline-start: 1rem;
     ${md} {
       margin-inline-start: 1rem;
     }
@@ -112,6 +81,10 @@ style.profileSnsItems = css`
   display: flex;
   list-style: none;
   align-items: center;
+  margin-block-start: 1rem;
+  ${md} {
+    margin-block-start: 0;
+  }
   > * + * {
     margin-inline-start: 1rem;
     ${md} {
@@ -122,6 +95,7 @@ style.profileSnsItems = css`
 
 style.profileSnsLink = css`
   display: block;
+  inline-size: 2rem;
 `
 
 style.profileContents = css`

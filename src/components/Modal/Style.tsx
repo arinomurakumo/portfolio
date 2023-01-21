@@ -45,10 +45,13 @@ style.wrapper = css`
 
 style.container = css`
   width: 100%;
-  max-height: 80vh;
-  padding: 1rem;
+  max-height: 100vh;
+  padding: 4rem 1rem 1rem;
   overflow: auto;
   color: var(--color-white);
+  ${md} {
+    padding: 1rem;
+  }
 `
 
 style.contents = css``
