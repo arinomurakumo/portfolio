@@ -98,11 +98,8 @@ style.profile = css`
 `
 
 style.profileTitles = css`
-  display: flex;
-  align-items: flex-end;
-  ${md} {
-    align-items: center;
-  }
+  display: grid;
+  grid-template-columns: 200px 1fr;
   > * + * {
     margin-inline-start: 1rem;
     ${md} {
@@ -111,8 +108,20 @@ style.profileTitles = css`
   }
 `
 
-style.profileSns = css`
-  width: 2rem;
+style.profileSnsItems = css`
+  display: flex;
+  list-style: none;
+  align-items: center;
+  > * + * {
+    margin-inline-start: 1rem;
+    ${md} {
+      margin-inline-start: 1rem;
+    }
+  }
+`
+
+style.profileSnsLink = css`
+  display: block;
 `
 
 style.profileContents = css`
