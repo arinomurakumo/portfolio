@@ -30,12 +30,12 @@ style.buttonWrapper = css`
 `
 
 style.buttonImage = css`
-  max-width: 96px;
-  width: 2rem;
+  inline-size: 2rem;
+  max-inline-size: 96px;
   margin-block-start: 0.5rem;
   margin-inline-end: 0.5rem;
   ${md} {
-    width: 5rem;
+    inline-size: 5rem;
     margin-block-start: 1rem;
     margin-inline-end: 2rem;
   }
@@ -51,12 +51,16 @@ style.name = css`
 `
 
 style.profile = css`
-  padding: 1rem;
   ${md} {
-    block-size: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
     writing-mode: vertical-rl;
     overflow: auto;
   }
+`
+
+style.profileContainer = css`
   > * + * {
     margin-block-start: 1rem;
     ${md} {
@@ -112,9 +116,9 @@ style.profileContents = css`
   }
 
   img {
-    width: 100%;
+    inline-size: 100%;
     ${md} {
-      width: auto;
+      inline-size: auto;
     }
   }
 

@@ -6,9 +6,8 @@ import type { Style } from '@style/index'
 export const style: Style = {}
 
 style.details = css`
-  padding: 1rem;
   ${md} {
-    width: 100%;
+    block-size: 100%;
     writing-mode: vertical-rl;
     display: flex;
     justify-content: center;

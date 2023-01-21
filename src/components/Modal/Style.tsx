@@ -10,8 +10,8 @@ style.overlay = css`
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  inline-size: 100%;
+  block-size: 100%;
   background: var(--color-overlay);
   animation: fade-in 0.2s ease-in-out forwards;
   @keyframes fade-in {
@@ -30,8 +30,8 @@ style.overlay = css`
 `
 
 style.modal = css`
-  width: 100%;
-  height: 100%;
+  inline-size: 100%;
+  block-size: 100%;
 `
 
 style.wrapper = css`
@@ -39,18 +39,18 @@ style.wrapper = css`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
+  inline-size: 100%;
+  block-size: 100%;
 `
 
 style.container = css`
-  width: 100%;
-  max-height: 100vh;
+  inline-size: 100%;
+  block-size: 100vh;
   padding: 4rem 1rem 1rem;
   overflow: auto;
   color: var(--color-white);
   ${md} {
-    padding: 1rem;
+    max-block-size: 70vh;
   }
 `
 
@@ -60,7 +60,7 @@ style.closeButton = css`
   position: absolute;
   top: 1rem;
   right: 1rem;
-  width: 1.5rem;
+  inline-size: 1.5rem;
   background: none;
   border: none;
   appearance: none;

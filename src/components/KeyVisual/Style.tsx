@@ -35,7 +35,7 @@ style.portfolio = css`
 `
 
 style.image = css`
-  width: 14vh;
+  inline-size: 14vh;
   ${md} {
     display: none;
     padding-block-start: 3rem;
@@ -43,7 +43,7 @@ style.image = css`
 `
 
 style.imageDesktop = css`
-  max-width: 800px;
+  max-inline-size: 800px;
   ${mdMax} {
     display: none;
   }
@@ -168,10 +168,10 @@ style.decorationContainer = css`
 `
 
 style.decoration = css`
-  max-width: 250px;
+  max-inline-size: 250px;
   margin-top: -6.75vh;
   ${md} {
-    max-width: 1127px;
+    max-inline-size: 1127px;
     margin-top: ${decorationNegative}rem;
   }
 `
@@ -180,8 +180,8 @@ const colorName = css`
   position: absolute;
   left: 50%;
   transform: translate(-50%, ${decorationNegative}rem);
-  width: 2.5vw;
-  max-width: 1.75rem;
+  inline-size: 2.5vw;
+  max-inline-size: 1.75rem;
   &:hover {
     opacity: 0.7;
     cursor: pointer;

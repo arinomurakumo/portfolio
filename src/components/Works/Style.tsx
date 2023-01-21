@@ -21,16 +21,16 @@ style.wrapper = css`
 style.items = css`
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  inline-size: 100%;
   list-style: none;
 `
 
 style.item = css`
   position: relative;
-  width: 50%;
+  inline-size: 50%;
   padding: 1rem;
   ${md} {
-    width: 33.3333%;
+    inline-size: 33.3333%;
     padding: 2rem;
   }
 `
