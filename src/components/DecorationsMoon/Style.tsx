@@ -104,7 +104,7 @@ const colorName = css`
 style.rurikonHorizontal = cx(
   colorName,
   css`
-    top: calc(100% - 43vw);
+    top: calc(100% - 43.4vw);
     @media (min-width: 710px) {
       top: 8.4rem;
       max-inline-size: 710px;
