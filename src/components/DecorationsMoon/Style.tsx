@@ -104,7 +104,7 @@ const colorName = css`
 style.rurikonHorizontal = cx(
   colorName,
   css`
-    top: calc(100% - 43.4vw);
+    top: calc(100% - 43.3vw);
     @media (min-width: 710px) {
       top: 8.4rem;
       max-inline-size: 710px;
@@ -115,7 +115,7 @@ style.rurikonHorizontal = cx(
 style.yamabukiiro = cx(
   colorName,
   css`
-    top: calc(100% - 19vw);
+    top: calc(100% - 19.8vw);
     @media (min-width: 710px) {
       top: 19rem;
     }
