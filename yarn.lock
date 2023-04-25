@@ -1658,10 +1658,10 @@
     source-map "^0.7.3"
     stylis "^3.5.4"
 
-"@linaria/babel-preset@^4.4.3":
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/@linaria/babel-preset/-/babel-preset-4.4.3.tgz#e93dec675d6fda7fe1f902d2778af6814e8b8147"
-  integrity sha512-6t8fO5DNjIERQ7sMmgUzyaBAJfAu6Foz1ecmmD9/Uq7J/nVedsQnN3X65S5/3/KM/kGXiReV91m+HhRUdWMCKg==
+"@linaria/babel-preset@^4.4.4":
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/@linaria/babel-preset/-/babel-preset-4.4.4.tgz#19ce8c0f71ea3de2ae442728abaefab8b447c0ad"
+  integrity sha512-bB0WqQjZSPKO2J5E93JFPg4/Goe/59F2+KaTSsMRpomJPrID0+2x23zdup5WWejAuGyDA3UszYy0wjnZbM1Uog==
   dependencies:
     "@babel/core" "^7.20.2"
     "@babel/generator" "^7.20.4"
@@ -1669,11 +1669,11 @@
     "@babel/template" "^7.18.10"
     "@babel/traverse" "^7.20.1"
     "@babel/types" "^7.20.2"
-    "@linaria/core" "^4.2.8"
+    "@linaria/core" "^4.2.9"
     "@linaria/logger" "^4.0.0"
-    "@linaria/shaker" "^4.2.9"
-    "@linaria/tags" "^4.3.3"
-    "@linaria/utils" "^4.3.2"
+    "@linaria/shaker" "^4.2.10"
+    "@linaria/tags" "^4.3.4"
+    "@linaria/utils" "^4.3.3"
     cosmiconfig "^8.0.0"
     find-up "^5.0.0"
     source-map "^0.7.3"
@@ -1696,6 +1696,15 @@
     "@linaria/logger" "^4.0.0"
     "@linaria/tags" "^4.3.3"
     "@linaria/utils" "^4.3.2"
+
+"@linaria/core@^4.2.9":
+  version "4.2.9"
+  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.2.9.tgz#4917bde18d064a29cff4fd86aa99621f953a2a2c"
+  integrity sha512-ELcu37VNVOT/PU0L6WDIN+aLzNFyJrqoBYT0CucGOCAmODbojUMCv8oJYRbWzA3N34w1t199dN4UFdfRWFG2rg==
+  dependencies:
+    "@linaria/logger" "^4.0.0"
+    "@linaria/tags" "^4.3.4"
+    "@linaria/utils" "^4.3.3"
 
 "@linaria/logger@^4.0.0":
   version "4.0.0"
@@ -1724,6 +1733,22 @@
   dependencies:
     postcss "^8.3.11"
 
+"@linaria/shaker@^4.2.10":
+  version "4.2.10"
+  resolved "https://registry.yarnpkg.com/@linaria/shaker/-/shaker-4.2.10.tgz#e6bad1eb87fb6566fa053661c8446b478503f42d"
+  integrity sha512-2VM0aOUZOeRBvne3fw36dIDu0yYzg0sLOT+kh1MvVmEen6uk4TphK3JoDVg/IWy8iAigv7w93AuJ5s8H5IiTlQ==
+  dependencies:
+    "@babel/core" "^7.20.2"
+    "@babel/generator" "^7.20.4"
+    "@babel/plugin-transform-modules-commonjs" "^7.19.6"
+    "@babel/plugin-transform-runtime" "^7.19.6"
+    "@babel/plugin-transform-template-literals" "^7.18.9"
+    "@babel/preset-env" "^7.20.2"
+    "@linaria/logger" "^4.0.0"
+    "@linaria/utils" "^4.3.3"
+    babel-plugin-transform-react-remove-prop-types "^0.4.24"
+    ts-invariant "^0.10.3"
+
 "@linaria/shaker@^4.2.6":
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/@linaria/shaker/-/shaker-4.2.6.tgz#723a33d2aa80706e57c31e1856f5380feec5b429"
@@ -1740,29 +1765,13 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     ts-invariant "^0.10.3"
 
-"@linaria/shaker@^4.2.9":
-  version "4.2.9"
-  resolved "https://registry.yarnpkg.com/@linaria/shaker/-/shaker-4.2.9.tgz#e336e8fc2a667d440244d77705cddf589b4dbd25"
-  integrity sha512-QGewHwSkde51aORKd9oLVHppeNp9kChwrwkLbXrY21ZM9XMXuljhcfKq/BZG2pNLCfzaTJQXlxvNV1HCcB6v1w==
-  dependencies:
-    "@babel/core" "^7.20.2"
-    "@babel/generator" "^7.20.4"
-    "@babel/plugin-transform-modules-commonjs" "^7.19.6"
-    "@babel/plugin-transform-runtime" "^7.19.6"
-    "@babel/plugin-transform-template-literals" "^7.18.9"
-    "@babel/preset-env" "^7.20.2"
-    "@linaria/logger" "^4.0.0"
-    "@linaria/utils" "^4.3.2"
-    babel-plugin-transform-react-remove-prop-types "^0.4.24"
-    ts-invariant "^0.10.3"
-
 "@linaria/stylelint@^4.1.10":
-  version "4.1.15"
-  resolved "https://registry.yarnpkg.com/@linaria/stylelint/-/stylelint-4.1.15.tgz#c05c74fc1aaa3b4e4dbd81fea62d96911ca0f123"
-  integrity sha512-sCTKrU8PtnscymNkJJK/0eILya1GK8ZN0mgXV3dkw8swrPN9D5BNvCjjqWIM3ADgIrGHaJuXr+D7dEBSQW76QA==
+  version "4.1.16"
+  resolved "https://registry.yarnpkg.com/@linaria/stylelint/-/stylelint-4.1.16.tgz#d4dbdbd1402239d15171731b4be4bdac36495bee"
+  integrity sha512-VSs7NoVfwx2aU0F8IxKWuVW9tIV2rF9C2Ac2YystqRyZ8FEdU97o/+UVL+FUUIwO1Cd9cwxZDZTeGxEV+MzqLg==
   dependencies:
-    "@linaria/babel-preset" "^4.4.3"
-    "@linaria/utils" "^4.3.2"
+    "@linaria/babel-preset" "^4.4.4"
+    "@linaria/utils" "^4.3.3"
     strip-ansi "^5.2.0"
 
 "@linaria/tags@^4.2.2":
@@ -1783,6 +1792,15 @@
     "@linaria/logger" "^4.0.0"
     "@linaria/utils" "^4.3.2"
 
+"@linaria/tags@^4.3.4":
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/@linaria/tags/-/tags-4.3.4.tgz#3c98108e4b48b8413662b4c62c2b2abdebacaca4"
+  integrity sha512-W8zaLKtC4YFCwkZ9DMu2enCiD/zGyYmFSTzEvJP7ZycdftMizoOrWNOyF9kITyjGdq+jZvAXJz0BZDT6axgIRg==
+  dependencies:
+    "@babel/generator" "^7.20.4"
+    "@linaria/logger" "^4.0.0"
+    "@linaria/utils" "^4.3.3"
+
 "@linaria/utils@^4.2.6":
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-4.2.6.tgz#c3b2ab390278fc26c954fec50c4afa81b3ac82c8"
@@ -1801,6 +1819,20 @@
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-4.3.2.tgz#88dbf38b1930c0ca76facdb2d304f571a10156c9"
   integrity sha512-EBw5jgO6Ql2V8SMrnAlrJXDu9+OlzO/PIgVFJQgTj/tT66Do0CRYD+lVmdLf/28Nf1Y4r/zReinKZUWt1vzLeA==
+  dependencies:
+    "@babel/core" "^7.20.2"
+    "@babel/plugin-proposal-export-namespace-from" "^7.18.9"
+    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
+    "@babel/plugin-transform-modules-commonjs" "^7.19.6"
+    "@babel/traverse" "^7.20.1"
+    "@babel/types" "^7.20.2"
+    "@linaria/logger" "^4.0.0"
+    babel-merge "^3.0.0"
+
+"@linaria/utils@^4.3.3":
+  version "4.3.3"
+  resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-4.3.3.tgz#9f66ae41187e8a2f2cc3471b44935128ebd1dab3"
+  integrity sha512-xSe/tod9A44aIMbtds9fWLNe2TT080lLdRSaoqX+UHsBWqClkrw5cXEt3lm8Vr4hZiXT2r/1AldjuHb9YbUlMg==
   dependencies:
     "@babel/core" "^7.20.2"
     "@babel/plugin-proposal-export-namespace-from" "^7.18.9"
@@ -4708,9 +4740,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.369"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.369.tgz#a98d838cdd79be4471cd04e9b4dffe891d037874"
-  integrity sha512-LfxbHXdA/S+qyoTEA4EbhxGjrxx7WK2h6yb5K2v0UCOufUKX+VZaHbl3svlzZfv9sGseym/g3Ne4DpsgRULmqg==
+  version "1.4.371"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.371.tgz#393983ef087268a20c926a89be30e9f0bfc803b0"
+  integrity sha512-jlBzY4tFcJaiUjzhRTCWAqRvTO/fWzjA3Bls0mykzGZ7zvcMP7h05W6UcgzfT9Ca1SW2xyKDOFRyI0pQeRNZGw==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
