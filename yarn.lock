@@ -1688,15 +1688,6 @@
     "@linaria/tags" "^4.2.2"
     "@linaria/utils" "^4.2.6"
 
-"@linaria/core@^4.2.8":
-  version "4.2.8"
-  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.2.8.tgz#0192b9650fdc966867bceb20206eee3d1ab091e7"
-  integrity sha512-7gtzI40c+5/t8WTz2lfAaRjX6GxVpRb+AEWviDM15CV/iVzKgxYYdvi/1GpUWIGf3xVCl/IUzfl0q/O6BKsnpA==
-  dependencies:
-    "@linaria/logger" "^4.0.0"
-    "@linaria/tags" "^4.3.3"
-    "@linaria/utils" "^4.3.2"
-
 "@linaria/core@^4.2.9":
   version "4.2.9"
   resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.2.9.tgz#4917bde18d064a29cff4fd86aa99621f953a2a2c"
@@ -1715,14 +1706,14 @@
     picocolors "^1.0.0"
 
 "@linaria/react@^4.3.2":
-  version "4.3.6"
-  resolved "https://registry.yarnpkg.com/@linaria/react/-/react-4.3.6.tgz#18a43112f0665621b144911aee4ec60b951bad03"
-  integrity sha512-Oa2BHpKCG9ZmGMUfR5A6pZcqc2iXrOm9jEGCIujW1DLMXduBBqCszGC5v3cp57qhIiWNHBN2mtNT9FhvYOTiTA==
+  version "4.3.7"
+  resolved "https://registry.yarnpkg.com/@linaria/react/-/react-4.3.7.tgz#32075b2a42dff5685d22ba4163ff56c33c7c5dd7"
+  integrity sha512-bU+fr0EKJFG5weyzJIIlKrwdCRN116A4ab+U9y9l0LW0zQ1FXlIK61X2nbd8f+v4MwswA1QKSX/tZD+NvnRKKQ==
   dependencies:
     "@emotion/is-prop-valid" "^1.2.0"
-    "@linaria/core" "^4.2.8"
-    "@linaria/tags" "^4.3.3"
-    "@linaria/utils" "^4.3.2"
+    "@linaria/core" "^4.2.9"
+    "@linaria/tags" "^4.3.4"
+    "@linaria/utils" "^4.3.3"
     react-html-attributes "^1.4.6"
     ts-invariant "^0.10.3"
 
@@ -1783,15 +1774,6 @@
     "@linaria/logger" "^4.0.0"
     "@linaria/utils" "^4.2.6"
 
-"@linaria/tags@^4.3.3":
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/@linaria/tags/-/tags-4.3.3.tgz#592034177cee3ffe0afdbedac29afaa5e2a4f1f0"
-  integrity sha512-TkJw9ZnWcbBj9VWXTN8PiTh8cb5jfSy7uSbEXtV4COBHkkEKiDGCQHvOxPxGJGoj9IcfndS/LJcsFuH95soCfQ==
-  dependencies:
-    "@babel/generator" "^7.20.4"
-    "@linaria/logger" "^4.0.0"
-    "@linaria/utils" "^4.3.2"
-
 "@linaria/tags@^4.3.4":
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/@linaria/tags/-/tags-4.3.4.tgz#3c98108e4b48b8413662b4c62c2b2abdebacaca4"
@@ -1805,20 +1787,6 @@
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-4.2.6.tgz#c3b2ab390278fc26c954fec50c4afa81b3ac82c8"
   integrity sha512-q74wDDD15cccyCd1CNFabEfycXylseh7EM3Pp756XMFv95souhodhw9AbUpTTEcm32sVPZvgR1rakxQJLkxWNw==
-  dependencies:
-    "@babel/core" "^7.20.2"
-    "@babel/plugin-proposal-export-namespace-from" "^7.18.9"
-    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
-    "@babel/plugin-transform-modules-commonjs" "^7.19.6"
-    "@babel/traverse" "^7.20.1"
-    "@babel/types" "^7.20.2"
-    "@linaria/logger" "^4.0.0"
-    babel-merge "^3.0.0"
-
-"@linaria/utils@^4.3.2":
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-4.3.2.tgz#88dbf38b1930c0ca76facdb2d304f571a10156c9"
-  integrity sha512-EBw5jgO6Ql2V8SMrnAlrJXDu9+OlzO/PIgVFJQgTj/tT66Do0CRYD+lVmdLf/28Nf1Y4r/zReinKZUWt1vzLeA==
   dependencies:
     "@babel/core" "^7.20.2"
     "@babel/plugin-proposal-export-namespace-from" "^7.18.9"
