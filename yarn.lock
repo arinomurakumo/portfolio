@@ -1549,14 +1549,14 @@
     picocolors "^1.0.0"
 
 "@linaria/react@^4.3.2":
-  version "4.3.7"
-  resolved "https://registry.yarnpkg.com/@linaria/react/-/react-4.3.7.tgz#32075b2a42dff5685d22ba4163ff56c33c7c5dd7"
-  integrity sha512-bU+fr0EKJFG5weyzJIIlKrwdCRN116A4ab+U9y9l0LW0zQ1FXlIK61X2nbd8f+v4MwswA1QKSX/tZD+NvnRKKQ==
+  version "4.3.8"
+  resolved "https://registry.yarnpkg.com/@linaria/react/-/react-4.3.8.tgz#f66341371740cf361853a5206450afde79712161"
+  integrity sha512-+Io4PXXyopxiSemk+5QdyqF4+uJJwVUx9yIhUrVJhKluwyJ0KsNA00gY+d5wpT5FhTsnVpv4Ef3YEcPHcVUuow==
   dependencies:
     "@emotion/is-prop-valid" "^1.2.0"
-    "@linaria/core" "^4.2.9"
-    "@linaria/tags" "^4.3.4"
-    "@linaria/utils" "^4.3.3"
+    "@linaria/core" "^4.2.10"
+    "@linaria/tags" "^4.3.5"
+    "@linaria/utils" "^4.3.4"
     react-html-attributes "^1.4.6"
     ts-invariant "^0.10.3"
 
@@ -4535,9 +4535,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.384"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.384.tgz#5c23b5579930dec9af2a93edafddbe991542eace"
-  integrity sha512-I97q0MmRAAqj53+a8vZsDkEXBZki+ehYAOPzwtQzALip52aEp2+BJqHFtTlsfjoqVZYwPpHC8wM6MbsSZQ/Eqw==
+  version "1.4.385"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.385.tgz#1afd8d6280d510145148777b899ff481c65531ff"
+  integrity sha512-L9zlje9bIw0h+CwPQumiuVlfMcV4boxRjFIWDcLfFqTZNbkwOExBzfmswytHawObQX4OUhtNv8gIiB21kOurIg==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
