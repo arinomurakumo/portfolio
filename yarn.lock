@@ -1522,7 +1522,7 @@
     source-map "^0.7.3"
     stylis "^3.5.4"
 
-"@linaria/core@^4.2.10":
+"@linaria/core@^4.2.10", "@linaria/core@^4.2.4", "@linaria/core@^4.2.9":
   version "4.2.10"
   resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.2.10.tgz#3f8d45b20205c167d326d558ee9a926039483767"
   integrity sha512-S1W01W7L4SQnGpWzp8awyCpPIYUOEJ+OLjjXqKpIXOU+ozPwBt86Mjjdas9aZccVhNBWDja74cMCUAVp8yUpDQ==
@@ -1530,15 +1530,6 @@
     "@linaria/logger" "^4.0.0"
     "@linaria/tags" "^4.3.5"
     "@linaria/utils" "^4.3.4"
-
-"@linaria/core@^4.2.4", "@linaria/core@^4.2.9":
-  version "4.2.9"
-  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.2.9.tgz#4917bde18d064a29cff4fd86aa99621f953a2a2c"
-  integrity sha512-ELcu37VNVOT/PU0L6WDIN+aLzNFyJrqoBYT0CucGOCAmODbojUMCv8oJYRbWzA3N34w1t199dN4UFdfRWFG2rg==
-  dependencies:
-    "@linaria/logger" "^4.0.0"
-    "@linaria/tags" "^4.3.4"
-    "@linaria/utils" "^4.3.3"
 
 "@linaria/logger@^4.0.0":
   version "4.0.0"
