@@ -1625,10 +1625,10 @@
     source-map "^0.7.3"
     stylis "^3.5.4"
 
-"@linaria/babel-preset@^4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@linaria/babel-preset/-/babel-preset-4.5.0.tgz#afeb2a495ce789712e6bed070396862ebb6fb79e"
-  integrity sha512-PEVwUmJpgM9U3xiRw5CU0Ewo+c3w7h2dAvB/hFSHQ2NaePMrKrUXvf/S7u39EPT+MRutQLcsSy6y7xBl6paaXg==
+"@linaria/babel-preset@^4.5.1":
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@linaria/babel-preset/-/babel-preset-4.5.1.tgz#0005613176d607e8243a5a3a38d58214e677f1ad"
+  integrity sha512-65+dHenumAvo01KYGEVvpVwMukxRfF/g7tU9YXd+UTA/k3qPXJlmRlAwQUL0FPYCHNdgNewxgAsneSOvHe1wyA==
   dependencies:
     "@babel/core" "^7.20.2"
     "@babel/generator" "^7.20.4"
@@ -1636,10 +1636,10 @@
     "@babel/template" "^7.18.10"
     "@babel/traverse" "^7.20.1"
     "@babel/types" "^7.20.2"
-    "@linaria/core" "^4.5.0"
+    "@linaria/core" "^4.5.1"
     "@linaria/logger" "^4.5.0"
     "@linaria/shaker" "^4.5.0"
-    "@linaria/tags" "^4.5.0"
+    "@linaria/tags" "^4.5.1"
     "@linaria/utils" "^4.5.0"
     cosmiconfig "^8.0.0"
     source-map "^0.7.3"
@@ -1654,13 +1654,13 @@
     "@linaria/tags" "^4.3.5"
     "@linaria/utils" "^4.3.4"
 
-"@linaria/core@^4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.5.0.tgz#45e66111247c984bb690ce50134e584070ac32f6"
-  integrity sha512-Pju28q16xyKU+cGVNt98JbynHhbERLDNRaTVqqMAVHGfuuwDWPnY8fN2psMY4Sh3xxK+rktMQFGcAREfMYowCA==
+"@linaria/core@^4.5.1":
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.5.1.tgz#a907ad7f37c56f9b837ae4a15b514d6f18edc393"
+  integrity sha512-szOjKrOO5dpa8FGzVLJwdqZrGeJG/GVrrcF0QsBWlRJ/XjsanLbmFbdyIYC8QBup96eBzNSvmb+gTXcc7tnNSQ==
   dependencies:
     "@linaria/logger" "^4.5.0"
-    "@linaria/tags" "^4.5.0"
+    "@linaria/tags" "^4.5.1"
     "@linaria/utils" "^4.5.0"
 
 "@linaria/logger@^4.0.0":
@@ -1731,11 +1731,11 @@
     ts-invariant "^0.10.3"
 
 "@linaria/stylelint@^4.1.10":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@linaria/stylelint/-/stylelint-4.5.0.tgz#1f046af9f2aff3358c18e7fb46d3d8b2fadd7a0d"
-  integrity sha512-QMDLbLOo49v+hb02YSE85P6FexKbxjCL+8BSTfGLYjE21fFtnEV+klQHPQmFX4Afbvynw4LmgjehD/Ew7jEFFg==
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@linaria/stylelint/-/stylelint-4.5.1.tgz#98f7ba36f284b8ad41dd22aa0b04837a5bb4f3eb"
+  integrity sha512-PWnjM5RIiKxTVNR2TBzwHNrTAl6Epa96cP60hsLGOuW1JxNcG73e9kPqhQbUOD0y3Y7uGfGTIGexKgaJIuu27w==
   dependencies:
-    "@linaria/babel-preset" "^4.5.0"
+    "@linaria/babel-preset" "^4.5.1"
     "@linaria/utils" "^4.5.0"
     strip-ansi "^5.2.0"
 
@@ -1748,10 +1748,10 @@
     "@linaria/logger" "^4.0.0"
     "@linaria/utils" "^4.3.4"
 
-"@linaria/tags@^4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@linaria/tags/-/tags-4.5.0.tgz#7547cf2c2ffe99164ac5a2a1b166aa5f77e5088f"
-  integrity sha512-Z5/8GBTlJPBepa8f+1lQA3JuliSUmbJz38mRB8BSlZmxPsRRBXtfdRUHhGukVfch3joV0NeUKCVIEoBX7b8klA==
+"@linaria/tags@^4.5.1":
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@linaria/tags/-/tags-4.5.1.tgz#6db974c6ab797831f5c00f9e42321ed5519bbaf2"
+  integrity sha512-BXXkqyJiTuJFzmrKw2H9wJQTHpSF0SWG0PV+MU9l+ejAAjdbmrnEHa5qHCyEs5PjVze5yAlayPC5KpHZQKBhNg==
   dependencies:
     "@babel/generator" "^7.20.4"
     "@linaria/logger" "^4.5.0"
@@ -4690,9 +4690,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.431:
-  version "1.4.459"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.459.tgz#25a23370f4ae8aaa8f77aaf00133aa4994f4148e"
-  integrity sha512-XXRS5NFv8nCrBL74Rm3qhJjA2VCsRFx0OjHKBMPI0otij56aun8UWiKTDABmd5/7GTR021pA4wivs+Ri6XCElg==
+  version "1.4.460"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.460.tgz#f360a5059c039c4a5fb4dfa99680ad8129dd9f84"
+  integrity sha512-kKiHnbrHME7z8E6AYaw0ehyxY5+hdaRmeUbjBO22LZMdqTYCO29EvF0T1cQ3pJ1RN5fyMcHl1Lmcsdt9WWJpJQ==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
