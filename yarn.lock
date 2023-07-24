@@ -1600,14 +1600,14 @@
     picocolors "^1.0.0"
 
 "@linaria/react@^4.3.2":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@linaria/react/-/react-4.5.2.tgz#12449041eb2e6575f3c9e6192d298aebe1908e97"
-  integrity sha512-bmWkCM+7vov5nkiFSC7Bqy3fjAgoyzYCJh42k44fwJKnj6dFSCSwCIQaF+JtJsUu2g81rncZIIq/EDDROcSosg==
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/@linaria/react/-/react-4.5.3.tgz#9f72888ec781d55dab2187bb4cf158aa5a5f0873"
+  integrity sha512-Oe1lMYm5IJPuNfBPe9EnYXcnGefWkvuJNGOWfnyC1NHTpNrG+96vG3IwkDvGhlCYielAqNAmrKB9ni4bTcg6Bg==
   dependencies:
     "@emotion/is-prop-valid" "^1.2.0"
-    "@linaria/core" "^4.5.2"
-    "@linaria/tags" "^4.5.2"
-    "@linaria/utils" "^4.5.1"
+    "@linaria/core" "^4.5.3"
+    "@linaria/tags" "^4.5.3"
+    "@linaria/utils" "^4.5.2"
     minimatch "^9.0.3"
     react-html-attributes "^1.4.6"
     ts-invariant "^0.10.3"
