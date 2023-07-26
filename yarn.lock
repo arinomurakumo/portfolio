@@ -1582,7 +1582,7 @@
     source-map "^0.7.3"
     stylis "^3.5.4"
 
-"@linaria/core@^4.2.4", "@linaria/core@^4.5.2", "@linaria/core@^4.5.3", "@linaria/core@^4.5.4":
+"@linaria/core@^4.2.4", "@linaria/core@^4.5.2", "@linaria/core@^4.5.4":
   version "4.5.4"
   resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.5.4.tgz#1bc989199e786da9cf21b0d26e1213687f886c96"
   integrity sha512-vMs/5iU0stxjfbBCxobIgY+wSQx4G8ukNwrhjPVD+6bF9QrTwi5rl0mKaCMxaGMjnfsLRiiM3i+hnWLIEYLdSg==
@@ -1600,14 +1600,14 @@
     picocolors "^1.0.0"
 
 "@linaria/react@^4.3.2":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@linaria/react/-/react-4.5.3.tgz#9f72888ec781d55dab2187bb4cf158aa5a5f0873"
-  integrity sha512-Oe1lMYm5IJPuNfBPe9EnYXcnGefWkvuJNGOWfnyC1NHTpNrG+96vG3IwkDvGhlCYielAqNAmrKB9ni4bTcg6Bg==
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/@linaria/react/-/react-4.5.4.tgz#4d53e357bbecae2e8d388ae9288865eda703a2f7"
+  integrity sha512-/dhCVCsfdGPfQCPV0q5yy+DDlFXepvfXrw/os2fC+Xo1v9J/9gyiaBBWHzcumauvNNFj8aN6vRkj89fMujPHew==
   dependencies:
     "@emotion/is-prop-valid" "^1.2.0"
-    "@linaria/core" "^4.5.3"
-    "@linaria/tags" "^4.5.3"
-    "@linaria/utils" "^4.5.2"
+    "@linaria/core" "^4.5.4"
+    "@linaria/tags" "^4.5.4"
+    "@linaria/utils" "^4.5.3"
     minimatch "^9.0.3"
     react-html-attributes "^1.4.6"
     ts-invariant "^0.10.3"
@@ -1669,15 +1669,6 @@
     "@linaria/logger" "^4.5.0"
     "@linaria/utils" "^4.5.1"
 
-"@linaria/tags@^4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@linaria/tags/-/tags-4.5.3.tgz#a5053098f9e01d286f4436ccb3326fa4a0c7f7bb"
-  integrity sha512-BYk52rzUsmEvokW5H0tMfv0QZ8cFbxOJuyMuri59Eo74KIT2sfO8Z9SyGzxu20oebK9G3bE2hQIBnLuwEqoI5A==
-  dependencies:
-    "@babel/generator" "^7.22.9"
-    "@linaria/logger" "^4.5.0"
-    "@linaria/utils" "^4.5.2"
-
 "@linaria/tags@^4.5.4":
   version "4.5.4"
   resolved "https://registry.yarnpkg.com/@linaria/tags/-/tags-4.5.4.tgz#071ab024227433f783ea2d948904fc164731a912"
@@ -1701,24 +1692,6 @@
     "@linaria/logger" "^4.5.0"
     babel-merge "^3.0.0"
     find-up "^5.0.0"
-
-"@linaria/utils@^4.5.2":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@linaria/utils/-/utils-4.5.2.tgz#33aba63a754ea13ed48a4a1fad1b2e9c20775036"
-  integrity sha512-LM8bfZ/T2izOSs9fKzgaZcp6Dan+LGZFwYsjXMuZcYtg3fkyV4xolcltK+9WN3icttlhF+aBRXMRZ/qwcsZMMA==
-  dependencies:
-    "@babel/core" "^7.22.9"
-    "@babel/generator" "^7.22.9"
-    "@babel/plugin-proposal-export-namespace-from" "^7.18.9"
-    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
-    "@babel/plugin-transform-modules-commonjs" "^7.22.5"
-    "@babel/template" "^7.22.5"
-    "@babel/traverse" "^7.22.8"
-    "@babel/types" "^7.22.5"
-    "@linaria/logger" "^4.5.0"
-    babel-merge "^3.0.0"
-    find-up "^5.0.0"
-    minimatch "^9.0.3"
 
 "@linaria/utils@^4.5.3":
   version "4.5.3"
@@ -4656,9 +4629,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.431:
-  version "1.4.470"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.470.tgz#0e932816be8d5f2b491ad2aa449ea47db4785398"
-  integrity sha512-zZM48Lmy2FKWgqyvsX9XK+J6FfP7aCDUFLmgooLJzA7v1agCs/sxSoBpTIwDLhmbhpx9yJIxj2INig/ncjJRqg==
+  version "1.4.471"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.471.tgz#14cb056d0ce4bfa99df57946d57fe46c2330dac3"
+  integrity sha512-GpmGRC1vTl60w/k6YpQ18pSiqnmr0j3un//5TV1idPi6aheNfkT1Ye71tMEabWyNDO6sBMgAR+95Eb0eUUr1tA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
