@@ -38,7 +38,7 @@
     "react-modal": "^3.16.1"
   },
   "devDependencies": {
-    "@linaria/stylelint": "^4.1.10",
+    "@linaria/stylelint": "^6.0.0",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@types/node": "^18.11.17",
     "@types/react": "^18.0.26",
