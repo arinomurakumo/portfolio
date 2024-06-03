@@ -11,9 +11,9 @@ style.wrapper = css`
   align-items: center;
   padding-block-end: 5rem;
   > * + * {
-    margin-block-start: 10rem;
+    margin-block-start: 3rem;
     ${md} {
-      margin-block-start: 20rem;
+      margin-block-start: 5rem;
     }
   }
 `

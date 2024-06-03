@@ -16,8 +16,8 @@ const IndexPage: React.FC<PageProps<GatsbyTypes.BlogIndexQuery>> = ({
   return (
     <>
       <KeyVisual />
-      <Works posts={posts} />
       <About />
+      <Works posts={posts} />
       <Footer />
     </>
   )
