@@ -34,9 +34,6 @@ export const DecorationsSun: React.FC<DecorationsSunProps> = (props) => {
           <DecorationCloud name="sunRight" style={style} />
         </div>
       </div>
-      <div className={style.baseColor}>
-        <ColorName name="kinariiro" style={style.kinariiro} />
-      </div>
     </div>
   )
 }

@@ -12,6 +12,8 @@ style.wrapper = css`
   text-align: center;
   ${md} {
     padding-block-start: 15rem;
+    padding-inline-start: 1vh;
+    padding-inline-end: 1vh;
   }
   * + * {
     margin-block-start: 3rem;
@@ -43,7 +45,6 @@ style.image = css`
 `
 
 style.imageDesktop = css`
-  max-inline-size: 800px;
   ${mdMax} {
     display: none;
   }

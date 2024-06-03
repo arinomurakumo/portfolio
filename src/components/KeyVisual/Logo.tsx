@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { style } from './Style'
-import { colors } from '@style/index'
 
 type LogoType = {
   setIsAnimated: React.Dispatch<React.SetStateAction<boolean>>
