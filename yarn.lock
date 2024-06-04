@@ -125,7 +125,7 @@
     eslint-visitor-keys "^2.1.0"
     semver "^6.3.1"
 
-"@babel/generator@^7.14.0", "@babel/generator@^7.20.14", "@babel/generator@^7.24.6":
+"@babel/generator@^7.14.0", "@babel/generator@^7.20.14", "@babel/generator@^7.23.5", "@babel/generator@^7.24.6":
   version "7.24.6"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.24.6.tgz#dfac82a228582a9d30c959fe50ad28951d4737a7"
   integrity sha512-S7m4eNa6YAPJRHmKsLHIDJhNAGNKoWNiWefz1MBbpnt8g9lvMDl1hir4P9bo/57bQEmuwEhnRU/AMWsD0G/Fbg==
@@ -2524,7 +2524,7 @@
     source-map "^0.7.3"
     stylis "^3.5.4"
 
-"@linaria/core@^4.2.4", "@linaria/core@^4.5.2", "@linaria/core@^4.5.4":
+"@linaria/core@^4.5.2", "@linaria/core@^4.5.4":
   version "4.5.4"
   resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.5.4.tgz#1bc989199e786da9cf21b0d26e1213687f886c96"
   integrity sha512-vMs/5iU0stxjfbBCxobIgY+wSQx4G8ukNwrhjPVD+6bF9QrTwi5rl0mKaCMxaGMjnfsLRiiM3i+hnWLIEYLdSg==
@@ -2532,6 +2532,13 @@
     "@linaria/logger" "^4.5.0"
     "@linaria/tags" "^4.5.4"
     "@linaria/utils" "^4.5.3"
+
+"@linaria/core@^6.0.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-6.2.0.tgz#f6507dfeacca7c62905b74807f869360e6d8fcda"
+  integrity sha512-Ee+cwfhzhRM5X9rFogah3npw0OSqy80sJe/hlWIJxQD1WR6Zsbf+y78IlBPEzi6PvgoOiqdYtFjSUeWFqNVIDw==
+  dependencies:
+    "@wyw-in-js/processor-utils" "^0.5.3"
 
 "@linaria/logger@^4.5.0":
   version "4.5.0"
@@ -3815,6 +3822,23 @@
   dependencies:
     "@webassemblyjs/ast" "1.12.1"
     "@xtuc/long" "4.2.2"
+
+"@wyw-in-js/processor-utils@^0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@wyw-in-js/processor-utils/-/processor-utils-0.5.3.tgz#eb1cf796d4f454f7496454e775f0137c64dd1c79"
+  integrity sha512-DATsRHLqq8cWYkTD8iwEmvWzG2UvmsFN6Poru4NJ1RwjxtcEdnNKCKZBaBdlH5XyhL7jRTcURUMyee3lqGljhg==
+  dependencies:
+    "@babel/generator" "^7.23.5"
+    "@wyw-in-js/shared" "0.5.3"
+
+"@wyw-in-js/shared@0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@wyw-in-js/shared/-/shared-0.5.3.tgz#2be6c58be57a5b40901f01dadada81b1e32923b2"
+  integrity sha512-sgST/P2QPIz4UwOK5NtpvaLXUsACcHRkd9/wTlNSOM5si2hOoeIRvakyuqK33wShHK3bpEZZOXQ9YztSXK3bwg==
+  dependencies:
+    debug "^4.3.4"
+    find-up "^5.0.0"
+    minimatch "^9.0.3"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
