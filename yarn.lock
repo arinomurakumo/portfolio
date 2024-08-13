@@ -9413,10 +9413,10 @@ mkdirp@^0.5.1, mkdirp@^0.5.4:
   dependencies:
     minimist "^1.2.6"
 
-modern-normalize@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/modern-normalize/-/modern-normalize-1.1.0.tgz#da8e80140d9221426bd4f725c6e11283d34f90b7"
-  integrity sha512-2lMlY1Yc1+CUy0gw4H95uNN7vjbpoED7NNRSBHE25nWfLBdmMzFCsPshlzbxHz+gYMcBEUN8V4pU16prcdPSgA==
+modern-normalize@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/modern-normalize/-/modern-normalize-3.0.0.tgz#b44f1e4f1e8781333fb5fe0dec3956b69e17c0bb"
+  integrity sha512-oY2uocgMUQC33i5rKZMWzhyJ+U2nsoiHDYyoDVFxYVBob8RIjZoCbRSbE4+a2/SfbGmZOhOJIavLrzz3BC72tw==
 
 moment@^2.29.4:
   version "2.30.1"
