@@ -139,7 +139,7 @@
     eslint-visitor-keys "^2.1.0"
     semver "^6.3.1"
 
-"@babel/generator@^7.14.0", "@babel/generator@^7.20.14", "@babel/generator@^7.26.0", "@babel/generator@^7.26.3", "@babel/generator@^7.26.5":
+"@babel/generator@^7.14.0", "@babel/generator@^7.20.14", "@babel/generator@^7.23.5", "@babel/generator@^7.26.0", "@babel/generator@^7.26.3", "@babel/generator@^7.26.5":
   version "7.26.5"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.26.5.tgz#e44d4ab3176bbcaf78a5725da5f1dc28802a9458"
   integrity sha512-2caSP6fN9I7HOe6nqhtft7V4g7/V/gfDsC3Ag4W7kEzzvRGKqiv0pu0HogPiZ3KaVSoNDhUws6IJjDjpfmYIXw==
@@ -2810,7 +2810,7 @@
     source-map "^0.7.3"
     stylis "^3.5.4"
 
-"@linaria/core@^4.2.4", "@linaria/core@^4.5.2", "@linaria/core@^4.5.4":
+"@linaria/core@^4.5.2", "@linaria/core@^4.5.4":
   version "4.5.4"
   resolved "https://registry.yarnpkg.com/@linaria/core/-/core-4.5.4.tgz#1bc989199e786da9cf21b0d26e1213687f886c96"
   integrity sha512-vMs/5iU0stxjfbBCxobIgY+wSQx4G8ukNwrhjPVD+6bF9QrTwi5rl0mKaCMxaGMjnfsLRiiM3i+hnWLIEYLdSg==
@@ -2818,6 +2818,13 @@
     "@linaria/logger" "^4.5.0"
     "@linaria/tags" "^4.5.4"
     "@linaria/utils" "^4.5.3"
+
+"@linaria/core@^6.0.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-6.2.0.tgz#f6507dfeacca7c62905b74807f869360e6d8fcda"
+  integrity sha512-Ee+cwfhzhRM5X9rFogah3npw0OSqy80sJe/hlWIJxQD1WR6Zsbf+y78IlBPEzi6PvgoOiqdYtFjSUeWFqNVIDw==
+  dependencies:
+    "@wyw-in-js/processor-utils" "^0.5.3"
 
 "@linaria/logger@^4.5.0":
   version "4.5.0"
@@ -4104,6 +4111,23 @@
   dependencies:
     "@webassemblyjs/ast" "1.14.1"
     "@xtuc/long" "4.2.2"
+
+"@wyw-in-js/processor-utils@^0.5.3":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@wyw-in-js/processor-utils/-/processor-utils-0.5.5.tgz#1ede1992e0589e5eafa8f3da7bf1d9b23adf1525"
+  integrity sha512-L3IcAfoowhM0fw9Cnv2CNzfjWNLKpYl2CFqam6NvwpiXNR1kXz/GpO0AOiKvCs5h4Ps5kWxE2e8knXLpk8q/2g==
+  dependencies:
+    "@babel/generator" "^7.23.5"
+    "@wyw-in-js/shared" "0.5.5"
+
+"@wyw-in-js/shared@0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@wyw-in-js/shared/-/shared-0.5.5.tgz#45d3bd19a53011fe452da764d3fb32e7848029b6"
+  integrity sha512-Wnvp3RGfynHk81lrp/0fA+Yv5yuIr2Ej13N3lawQeqbK4KlMag3P9npyIljGrEiwK2Bv4byHuXsJFgLI0Fo8bw==
+  dependencies:
+    debug "^4.3.4"
+    find-up "^5.0.0"
+    minimatch "^9.0.3"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
